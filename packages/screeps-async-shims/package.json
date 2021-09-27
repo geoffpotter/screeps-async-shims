@@ -1,0 +1,35 @@
+{
+  "name": "screeps-async-shims",
+  "version": "0.0.5",
+  "description": "Collection of shims for Screeps (https://screeps.com/) that implements some of the missing async features from Node, namely Promises, setTimeout, setInterval, queueMicroTask in a screeps friendly way",
+  "main": "dist/index.js",
+  "files": ["dist/*.js", "dist/*.d.ts"],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "screeps-ai-utils":"latest"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "tsc --build --clean",
+    "build": "tsc --build",
+    "watch": "tsc --build --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/geoffpotter/screeps-shared-code.git"
+  },
+  "keywords": [
+    "screeps",
+    "shims",
+    "async",
+    "promises",
+    "setInterval",
+    "setTimeout"
+  ],
+  "author": "Geoff Potter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geoffpotter/screeps-shared-code/issues"
+  },
+  "homepage": "https://github.com/geoffpotter/screeps-shared-code#readme"
+}
